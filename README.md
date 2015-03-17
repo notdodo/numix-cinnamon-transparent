@@ -1,4 +1,4 @@
-####A theme for cinnamon __2.4__
+####A Transparent theme for cinnamon __2.4__
 ---
-_Original concept is part of [Numix-Project](https://github.com/numixproject)_
+_Transparent theme of [Numix-Cinnamon Theme](https://github.com/zagortenay333/numix-cinnamon) _
 
