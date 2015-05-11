@@ -8,3 +8,11 @@ _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/
 ### Installation
 <pre>cd ~ && git clone https://github.com/edoz90/numix-cinnamon-transparent.git</pre>
 <pre>cd numix-cinnamon-transparent && cp -r Numix-Cinnamon-Transparent ~/.themes/</pre>
+
+#### Changelog (from forking date)
+Update 29.04.2015
+
+    Completely rewritten in sass.
+    Renamed various asset folders.
+    Tweaked various assets.
+    Various fixes and tweaks.
