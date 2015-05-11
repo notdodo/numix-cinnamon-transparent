@@ -1226,7 +1226,7 @@ This fixes it. */
    ===================================================================*/
    .panel-launcher {
       margin: 0;
-      padding: 0 4px;
+      padding: 0 2px;
   }
 
   /* Different images used in top & bottom panels. */
