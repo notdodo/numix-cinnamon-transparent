@@ -372,8 +372,7 @@
 /* ===================================================================
    ! Panel
    ===================================================================*/
-   .panel-top {
-      /*border-image: url("panel-assets/panel-top.svg") 4;*/
+   .panel-top, panel-bottom {
       font-size: 9pt;
       height: 25px;
       /* panel edit mode */
@@ -388,12 +387,6 @@
       border-image: url("panel-assets/DND-panel-top-right.svg") 4;
   }
 
-  .panel-bottom {
-      /*border-image: url("panel-assets/panel-bottom.svg") 4;*/
-      font-size: 9pt;
-      height: 25px;
-      /* panel edit mode */
-  }
   .panel-bottom #panelLeft:dnd {
       border-image: url("panel-assets/DND-panel-bottom-left.svg") 4;
   }
@@ -924,11 +917,9 @@ This fixes it. */
 
   /* Different images used in top & bottom panels. */
   .panel-top .applet-box:hover {
-      /*border-image: url("panel-assets/panel-top-item-hover.svg") 4;*/
   }
 
   .panel-bottom .applet-box:hover {
-      border-image: url("panel-assets/panel-bottom-item-hover.svg") 4;
   }
 
 /* ===================================================================
