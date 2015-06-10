@@ -389,7 +389,7 @@
   }
 
   .panel-bottom {
-      border-image: url("panel-assets/panel-bottom.svg") 4;
+      /*border-image: url("panel-assets/panel-bottom.svg") 4;*/
       font-size: 9pt;
       height: 25px;
       /* panel edit mode */
