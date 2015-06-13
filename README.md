@@ -16,3 +16,8 @@ Update 29.04.2015
     Renamed various asset folders.
     Tweaked various assets.
     Various fixes and tweaks.
+
+Update 04.06.2015
+
+    OSD slider fix
+    Updated to 2.6
