@@ -3,7 +3,7 @@
    ===================================================================*/
 
 .window-list-box {
-    spacing: 3px;
+    spacing: 0px;
     padding-left: 0;
 }
 
@@ -13,18 +13,18 @@
 }
 
 .window-list-item-box {
+	max-width: 10em;
     color: $text-secondary;
     font-weight: bold;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /* Different images used in top & bottom panels. */
 @each $v in panel-top, panel-bottom {
     .#{$v} {
         .window-list-item-box:hover  {
-            border-image: url("panel-assets/#{$v}-item-hover.svg") 4;
-            color: $text-primary;
+            color: $text-active;
         }
 
         .window-list-item-box:active,

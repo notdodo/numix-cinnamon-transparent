@@ -16,7 +16,7 @@
         -boxpointer-gap: 2px;
     }
 
-    &-content {
+    .popup-menu-content {
         border-image: url("background-assets/popup-inside.svg") 9;
         padding: .7em 0;
         color: $text-primary;
@@ -38,6 +38,12 @@
             .popup-menu-icon, StIcon {
                 color: $icon-active;
             }
+
+            .popup-menu-item-dot {
+                background-image: url("widget-assets/check-dot-hover.svg");
+                background-size: 10px;
+                color: rgba(0, 0, 0, 0);
+            }
         }
 
         &:insensitive {
@@ -46,7 +52,11 @@
         }
     }
 
-    &-item-dot {/*!*/}
+    &-item-dot {
+        background-image: url("widget-assets/check-dot.svg");
+        background-size: 10px;
+        color: rgba(0, 0, 0, 0);
+    }
 }
 
 
@@ -87,7 +97,7 @@
     -slider-height: 2px;
     -slider-background-color: rgba(0, 0, 0, 0);
     -slider-border-color: rgba(0, 0, 0, 0);
-    -slider-active-background-color: $accent;
+    -slider-active-background-color: $accent-primary;
     -slider-active-border-color: rgba(0, 0, 0, 0);
     -slider-border-width: 2px;
     -slider-handle-radius: 4px;

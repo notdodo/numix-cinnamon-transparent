@@ -44,18 +44,18 @@
     &:focus,
     &#selected:focus {
         border-image: url("expo-scale-assets/workspace-name-pressed.svg") 12;
-        color: $accent;
+        color: $accent-primary;
         selected-color: $text-primary;
         caret-color: $text-primary;
         caret-size: 1px;
-        selection-background-color: $accent;
+        selection-background-color: $accent-primary;
     }
 }
 
 .workspace-close-button {
     background-image: url("widget-assets/close.svg");
-    height: 41px;
-    width: 41px;
+    background-size: 41px 61px;
+    @include size(41px, 61px);
     -cinnamon-close-overlap: 28px;
 }
 
@@ -77,14 +77,6 @@
     background-image: url("expo-scale-assets/trash.svg");
     height: 100px;
     width: 350px;
-}
-
-.workspace-osd {
-    border-image: url("background-assets/popup.svg") 7;
-    padding: 12px 17px;
-    color: $text-primary;
-    font-weight: bold;
-    font-size: 20pt;
 }
 /* ===================================================================
    ! Scale
@@ -112,9 +104,9 @@
 
 .window-close {
     background-image: url("widget-assets/close.svg");
-    height: 41px;
-    width: 41px;
-    -cinnamon-close-overlap: 22px;
+    background-size: 41px 61px;
+    @include size(41px, 45px);
+    -cinnamon-close-overlap: 24px;
 }
 
 .window-iconbox {}

@@ -33,10 +33,12 @@
 /* Categories */
 .menu-categories-box {
     padding: 10px 30px;
+    font-weight: bold;
 }
 
 .menu-category-button {
     padding: 7px;
+    color: $text-secondary;
 
     &-greyed {
         padding: 7px;
@@ -111,9 +113,9 @@
     padding-left: 30px;
 }
 
-.menu-search-entry-icon {
-    icon-size: 16px;
-}
 
 /* Right-click menu */
-.menu-context-menu {}
+.menu-applications-inner-box StScrollView {
+    border-image: url("background-assets/dark-bg.svg") 7;
+    padding: .5em .1em;
+}

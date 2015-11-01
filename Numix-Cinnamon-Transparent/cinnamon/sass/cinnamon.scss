@@ -1,5 +1,5 @@
 // Base
-@import "base/functions";
+@import "base/tools";
 @import "base/colors";
 @import "base/font";
 
@@ -27,6 +27,9 @@
 @import "third-party-applet-modules/slingshot";
 @import "third-party-applet-modules/xcenter";
 @import "third-party-applet-modules/stopwatch";
+@import "third-party-applet-modules/desktop-capture";
+@import "third-party-applet-modules/color-picker";
+@import "third-party-applet-modules/window-app-grouping";
 
 // Third party DESKLET modules
 @import "third-party-desklet-modules/sticky-notes";
