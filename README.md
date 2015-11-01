@@ -9,7 +9,7 @@ _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/
 <pre>cd ~ && git clone https://github.com/edoz90/numix-cinnamon-transparent.git</pre>
 <pre>cd numix-cinnamon-transparent && cp -r Numix-Cinnamon-Transparent ~/.themes/</pre>
 
-###### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
+##### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
 Update 30.10.2015
 
     All fixes for desklets, applets.
