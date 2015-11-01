@@ -18,6 +18,7 @@
     font-weight: bold;
     padding-left: 0px;
     padding-right: 0px;
+	color: $text-active;
 }
 
 /* Different images used in top & bottom panels. */
@@ -31,7 +32,6 @@
         .window-list-item-box:checked,
         .window-list-item-box:focus  {
             border-image: url("panel-assets/#{$v}-item-active.svg") 4;
-            color: $text-active;
         }
 
         .window-list-item-box:checked:hover,

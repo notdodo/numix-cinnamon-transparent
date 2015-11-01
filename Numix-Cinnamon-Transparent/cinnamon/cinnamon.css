@@ -1265,6 +1265,7 @@ StScrollBar StButton#hhandle:focus {
   font-weight: bold;
   padding-left: 0px;
   padding-right: 0px;
+  color: white;
 }
 
 /* Different images used in top & bottom panels. */
@@ -1276,7 +1277,6 @@ StScrollBar StButton#hhandle:focus {
 .panel-top .window-list-item-box:checked,
 .panel-top .window-list-item-box:focus {
   border-image: url("panel-assets/panel-top-item-active.svg") 4;
-  color: white;
 }
 
 .panel-top .window-list-item-box:checked:hover,
@@ -1301,7 +1301,6 @@ StScrollBar StButton#hhandle:focus {
 .panel-bottom .window-list-item-box:checked,
 .panel-bottom .window-list-item-box:focus {
   border-image: url("panel-assets/panel-bottom-item-active.svg") 4;
-  color: white;
 }
 
 .panel-bottom .window-list-item-box:checked:hover,
