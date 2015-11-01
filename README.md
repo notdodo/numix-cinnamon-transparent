@@ -11,11 +11,12 @@ _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/
 
 ###### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
 Update 30.10.2015
-	All fixes for desklets, applets
-	Refactoring some modules
-	Uptaded some modules
-	Added some applets styles
-	Gulp compiling and reloading
+
+    All fixes for desklets, applets.
+    Refactoring some modules.
+    Uptaded some modules.
+    Added some applets styles.
+    Gulp compiling and reloading.
 	
 Update 29.04.2015
 
