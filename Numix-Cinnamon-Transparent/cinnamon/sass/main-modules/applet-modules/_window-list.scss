@@ -13,12 +13,11 @@
 }
 
 .window-list-item-box {
-	max-width: 10em;
-    color: $text-secondary;
+    color: $text-active;
     font-weight: bold;
     padding-left: 0px;
     padding-right: 0px;
-	color: $text-active;
+	max-width: 10em;
 }
 
 /* Different images used in top & bottom panels. */
@@ -46,6 +45,23 @@
 
         .window-list-item-demands-attention:hover {
             border-image: url("panel-assets/#{$v}-item-attention-hover.svg") 4;
+        }
+    }
+}
+
+/* This styles the window-list preview and window name
+   in "cover" and "timeline" alt-tab modes */
+.switcher-list {
+    border-image: url("background-assets/tooltip.svg") 7;
+    color: $text-primary;
+    padding: 0 3px;
+    font-weight: bold;
+
+    > StBoxLayout {
+        spacing: .4em;
+
+        > StBoxLayout {
+            spacing: .4em;
         }
     }
 }

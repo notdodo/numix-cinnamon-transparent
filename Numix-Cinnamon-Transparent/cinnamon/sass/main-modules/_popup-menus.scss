@@ -27,6 +27,11 @@
         color: $icon-primary;
     }
 
+    &-arrow {
+        @include size(10px);
+        padding:0;
+    }
+
     &-item {
         padding: .4em 1.3em;
         spacing: .8em;
@@ -49,6 +54,10 @@
         &:insensitive {
             font-weight: normal;
             color: $text-disabled;
+
+            .popup-menu-icon, StIcon {
+                color: $icon-disabled;
+            }
         }
     }
 
@@ -59,7 +68,6 @@
     }
 }
 
-
 .popup-sub-menu {
     border-image: url("background-assets/submenu-bg.svg") 9;
     box-shadow: none;
@@ -67,13 +75,14 @@
     padding: 12px 0;
     color: $text-primary;
 
-    .popup-menu-item {
-        padding-left: 2.1em;
-    }
-
     .popup-menu-item:active {
         border-image: url("background-assets/hover.svg") 9;
         color: $text-active;
+    }
+
+    // FIX for strange padding in "StDrawingArea"
+    .popup-slider-menu-item {
+        border-image: url("widget-assets/slider--submenu.svg") 9 32 8 8;
     }
 }
 
@@ -114,6 +123,21 @@
     }
 }
 
-.popup-subtitle-menu-item {}
+.popup-inactive-menu-item {
+    color: $text-secondary;
+}
 
-.popup-inactive-menu-item { color: $text-secondary; }
+/* used mainly for the notif-applet */
+.popup-menu-item .popup-subtitle-menu-item {
+    font-weight: bold;
+    color: $text-active;
+}
+
+.popup-device-menu-item {
+    spacing: .5em;
+
+    .popup-inactive-menu-item {
+        color: $text-info;
+    }
+}
+
