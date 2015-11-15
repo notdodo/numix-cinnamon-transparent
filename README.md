@@ -10,6 +10,14 @@ _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/
 <pre>cd numix-cinnamon-transparent && cp -r Numix-Cinnamon-Transparent ~/.themes/</pre>
 
 ##### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
+
+Update 15.11.2015
+
+    Remove accent-color-edit file
+    Style battery info
+    Remove padding-left from submenu items
+    fix slider padding in popup-submenu
+    
 Update 30.10.2015
 
     All fixes for desklets, applets.
