@@ -146,31 +146,31 @@ StScrollBar StButton#hhandle:focus {
 /* ===================================================================
    ! Checkboxes + Radio buttons
    ===================================================================*/
-.checkbox CinnamonGenericContainer {
+.check-box CinnamonGenericContainer {
   spacing: .2em;
   min-height: 16px;
 }
 
-.checkbox StLabel {
+.check-box StLabel {
   padding-top: 1px;
 }
 
-.checkbox StBin {
+.check-box StBin {
   width: 16px;
   height: 16px;
-  background-image: url("widget-assets/checkbox.svg");
+  background-image: url("widget-assets/check-box.svg");
 }
 
-.checkbox:focus StBin {
-  background-image: url("widget-assets/checkbox-focused.svg");
+.check-box:focus StBin {
+  background-image: url("widget-assets/check-box-focused.svg");
 }
 
-.checkbox:checked StBin {
-  background-image: url("widget-assets/checkbox-checked.svg");
+.check-box:checked StBin {
+  background-image: url("widget-assets/check-box-checked.svg");
 }
 
-.checkbox:focus:checked {
-  background-image: url("widget-assets/checkbox-focused-checked.svg");
+.check-box:focus:checked {
+  background-image: url("widget-assets/check-box-focused-checked.svg");
 }
 
 .radiobutton CinnamonGenericContainer {
@@ -617,6 +617,15 @@ StScrollBar StButton#hhandle:focus {
 /* ===================================================================
    ! Notifications
    ===================================================================*/
+/*
+    The highlighter gets it's opacity from the
+    color property
+    Tweak default $link color to fix
+*/
+.url-highlighter {
+  link-color: #ff604b;
+}
+
 #notification {
   border-image: url("background-assets/popup.svg") 7;
   padding: 1.3em;
@@ -650,12 +659,23 @@ StScrollBar StButton#hhandle:focus {
 #notification-body {
   font-weight: normal;
   font-size: 9pt;
-  padding: .8em 0 .6em 0;
-  border-top: 1px rgba(0, 0, 0, 0.05);
+  padding: .5em 0;
 }
 
 #notification-actions {
   spacing: .2em;
+}
+
+#notification.notification-with-image {
+  min-height: 159px;
+}
+
+.popup-menu-content #notification.notification-with-image {
+  min-height: 172px;
+}
+
+#notification.notification-with-image #notification-body {
+  padding: 0;
 }
 
 .notification-button,
@@ -785,6 +805,7 @@ StScrollBar StButton#hhandle:focus {
 
 .popup-menu-content #notification.notification-with-image {
   border-image: url("background-assets/dark-bg-marked-green.svg") 7;
+  padding-bottom: .8em;
 }
 
 /* ===================================================================
@@ -984,7 +1005,8 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .run-dialog-completion-box {
-  font-size: 10px;
+  font-size: 10pt;
+  padding: 1em .7em;
 }
 
 .run-dialog-label {
@@ -1173,8 +1195,8 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .applet-box {
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
   font-weight: bold;
   color: #dcdcdc;
 }
@@ -1192,7 +1214,7 @@ StScrollBar StButton#hhandle:focus {
    ! Calendar
    ===================================================================*/
 .datemenu-date-label {
-  padding: .7em 0 .4em 0;
+  padding: .7em 1.3em .4em 1.3em;
   font-size: 10pt;
   font-weight: bold;
   text-align: center;
@@ -1403,6 +1425,10 @@ StScrollBar StButton#hhandle:focus {
   width: 16px;
   height: 16px;
   padding: 1px;
+}
+
+.sound-player > StBoxLayout:first-child StButton:small:hover * {
+  color: #d64937;
 }
 
 .sound-player-generic-coverart {
@@ -1804,7 +1830,7 @@ StScrollBar StButton#hhandle:focus {
 
 .osd-window {
   spacing: .4em;
-  padding: 1.4em;
+  padding: 1.0em;
   color: rgba(255, 255, 255, 0.8);
   border-image: url("background-assets/popup.svg") 10;
   font-size: 20pt;
