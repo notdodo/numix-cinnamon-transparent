@@ -10,7 +10,7 @@ var gulp        = require("gulp"),
 
 
 var themesDir   = process.env.HOME+"/.themes/",
-    theme       = "Numix-Cinnamon";
+    theme       = "Numix-Cinnamon-Transparent";
 
 
 // Error handler
