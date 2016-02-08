@@ -2,6 +2,13 @@
    ! Panel
    ===================================================================*/
 
+@each $v in panel-top, panel-bottom {
+    .#{$v} {
+        font-size: 9pt;
+        height: 25px;
+    }
+}
+
 #panel {}
 
 .panel-dummy {
