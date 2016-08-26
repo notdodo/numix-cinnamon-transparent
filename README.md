@@ -15,7 +15,7 @@ https://aur.archlinux.org/packages/numix-cinnamon-transparent-git/
 
 Thanks to BZaidan
 
-##### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
+### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
 
 Update 08.01.2016
 
