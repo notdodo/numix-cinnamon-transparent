@@ -9,10 +9,10 @@ _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/
 <pre>cd ~ && git clone https://github.com/edoz90/numix-cinnamon-transparent.git</pre>
 <pre>cd numix-cinnamon-transparent && cp -r Numix-Cinnamon-Transparent ~/.themes/</pre>
 
-#### Arch Linux
+**Arch Linux**
 https://aur.archlinux.org/packages/numix-cinnamon-transparent-git/
-
 <pre>yaourt -S numix-cinnamon-transparent-git</pre>
+
 Thanks to BZaidan
 
 ##### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
