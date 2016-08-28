@@ -3,7 +3,7 @@
 _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/numix-cinnamon) with shorter window list's tab_
 
 ### Preview
-<img src="https://github.com/edoz90/numix-cinnamon-transparent/blob/master/NumixTransparent.png" />
+<img src="https://raw.githubusercontent.com/edoz90/numix-cinnamon-transparent/master/NumixTransparent.png" />
 
 ### Installation
 <pre>cd ~ && git clone https://github.com/edoz90/numix-cinnamon-transparent.git</pre>
