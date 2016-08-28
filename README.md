@@ -5,6 +5,8 @@ _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/
 ### Preview
 <img src="https://raw.githubusercontent.com/edoz90/numix-cinnamon-transparent/master/NumixTransparent.png" />
 
+(conky: [conky_dodo](https://github.com/edoz90/conky_dodo]))
+
 ### Installation
 <pre>cd ~ && git clone https://github.com/edoz90/numix-cinnamon-transparent.git</pre>
 <pre>cd numix-cinnamon-transparent && cp -r Numix-Cinnamon-Transparent ~/.themes/</pre>
