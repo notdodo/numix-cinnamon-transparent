@@ -75,6 +75,7 @@ StScrollBar StButton#hhandle:focus {
    ===================================================================*/
 .popup-menu StEntry,
 .modal-dialog StEntry,
+.menu-search-box StEntry,
 #notification StEntry {
   background-gradient-direction: vertical;
   background-gradient-start: transparent;
@@ -96,6 +97,9 @@ StScrollBar StButton#hhandle:focus {
 .modal-dialog StEntry:focus,
 .modal-dialog StEntry:active,
 .modal-dialog StEntry:pressed,
+.menu-search-box StEntry:focus,
+.menu-search-box StEntry:active,
+.menu-search-box StEntry:pressed,
 #notification StEntry:focus,
 #notification StEntry:active,
 #notification StEntry:pressed {
@@ -110,6 +114,7 @@ StScrollBar StButton#hhandle:focus {
 
 .popup-menu StEntry StIcon,
 .modal-dialog StEntry StIcon,
+.menu-search-box StEntry StIcon,
 #notification StEntry StIcon {
   color: #888;
 }
@@ -120,6 +125,9 @@ StScrollBar StButton#hhandle:focus {
 .modal-dialog StEntry:focus > StIcon,
 .modal-dialog StEntry:active > StIcon,
 .modal-dialog StEntry:pressed > StIcon,
+.menu-search-box StEntry:focus > StIcon,
+.menu-search-box StEntry:active > StIcon,
+.menu-search-box StEntry:pressed > StIcon,
 #notification StEntry:focus > StIcon,
 #notification StEntry:active > StIcon,
 #notification StEntry:pressed > StIcon {
@@ -234,11 +242,14 @@ StScrollBar StButton#hhandle:focus {
 /* ===================================================================
    ! Popup Menus
    ===================================================================*/
-.popup-menu {
+/* TODO: !fix arrow, it's seems that cinnamon removed support for arrows */
+/*.popup-menu */
+.popup-menu, .menu {
   min-width: 100px;
+  background-color: #2d2d2d;
 }
 
-.popup-menu-boxpointer {
+.popup-menu-boxpointer, .menu-boxpointer {
   padding: 0;
   -arrow-background-color: #2d2d2d;
   -arrow-border-width: 1px;
@@ -249,53 +260,53 @@ StScrollBar StButton#hhandle:focus {
   -boxpointer-gap: 2px;
 }
 
-.popup-menu .popup-menu-content {
+.popup-menu .popup-menu-content, .menu .popup-menu-content {
   border-image: url("background-assets/popup-inside.svg") 9;
   padding: .7em 0;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.popup-menu-icon, .popup-menu StIcon {
+.popup-menu-icon, .popup-menu StIcon, .menu-icon, .menu StIcon {
   icon-size: 16px;
   color: #dcdcdc;
 }
 
-.popup-menu-arrow {
+.popup-menu-arrow, .menu-arrow {
   width: 10px;
   height: 10px;
   padding: 0;
 }
 
-.popup-menu-item {
+.popup-menu-item, .menu-item {
   padding: .4em 1.3em;
   spacing: .8em;
 }
 
-.popup-menu-item:active {
+.popup-menu-item:active, .menu-item:active {
   border-image: url("background-assets/hover.svg") 9;
   color: white;
 }
 
-.popup-menu-item:active .popup-menu-icon, .popup-menu-item:active StIcon {
+.popup-menu-item:active .popup-menu-icon, .popup-menu-item:active StIcon, .menu-item:active .popup-menu-icon, .menu-item:active StIcon {
   color: #fff;
 }
 
-.popup-menu-item:active .popup-menu-item-dot {
+.popup-menu-item:active .popup-menu-item-dot, .menu-item:active .popup-menu-item-dot {
   background-image: url("widget-assets/check-dot-hover.svg");
   background-size: 10px;
   color: transparent;
 }
 
-.popup-menu-item:insensitive {
+.popup-menu-item:insensitive, .menu-item:insensitive {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.1);
 }
 
-.popup-menu-item:insensitive .popup-menu-icon, .popup-menu-item:insensitive StIcon {
+.popup-menu-item:insensitive .popup-menu-icon, .popup-menu-item:insensitive StIcon, .menu-item:insensitive .popup-menu-icon, .menu-item:insensitive StIcon {
   color: #444;
 }
 
-.popup-menu-item-dot {
+.popup-menu-item-dot, .menu-item-dot {
   background-image: url("widget-assets/check-dot.svg");
   background-size: 10px;
   color: transparent;
@@ -376,12 +387,10 @@ StScrollBar StButton#hhandle:focus {
    ===================================================================*/
 .panel-top {
   font-size: 9pt;
-  height: 25px;
 }
 
 .panel-bottom {
   font-size: 9pt;
-  height: 25px;
 }
 
 .panel-dummy {
@@ -1842,8 +1851,8 @@ StScrollBar StButton#hhandle:focus {
   spacing: .4em;
   padding: 1.0em;
   color: rgba(255, 255, 255, 0.8);
-  border-image: url("background-assets/popup.svg") 10;
-  font-size: 20pt;
+  border-image: url("background-assets/popup.svg") 7;
+  font-size: 15pt;
 }
 
 .osd-window StIcon {
@@ -1851,7 +1860,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .osd-window .level {
-  height: 5px;
+  height: 6px;
   color: #d64937;
 }
 

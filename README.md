@@ -1,4 +1,4 @@
-####A Transparent theme for cinnamon __2.8__
+####A Transparent theme for cinnamon __3.2__
 ---
 _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/numix-cinnamon) with shorter window list's tab_
 
@@ -17,6 +17,11 @@ https://aur.archlinux.org/packages/numix-cinnamon-transparent-git/
 <pre>yaourt -S numix-cinnamon-transparent-git</pre>
 
 ### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
+
+Update 25.11.201
+	Support for cinnamon 3.2 (fix popup menu, search icon)
+	Tweak font size in OSD
+	TODO: add support for arrow in popup menus
 
 Update 08.01.2016
 

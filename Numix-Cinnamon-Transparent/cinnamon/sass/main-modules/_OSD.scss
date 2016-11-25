@@ -16,13 +16,13 @@
     spacing: .4em;
     padding: 1.0em;
     color: $text-primary;
-    border-image: url("background-assets/popup.svg") 10;
-    font-size: 20pt;
+    border-image: url("background-assets/popup.svg") 7;
+    font-size: 15pt;
 
     StIcon { color: $icon-primary; }
 
     .level {
-        height: 5px;
+        height: 6px;
         color: $accent-primary;
     }
 }
