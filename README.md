@@ -22,6 +22,7 @@ https://aur.archlinux.org/packages/numix-cinnamon-transparent-git/
 ### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
 
 Update 25.11.201
+
 	Support for cinnamon 3.2 (fix popup menu, search icon)
 	Tweak font size in OSD
 	TODO: add support for arrow in popup menus
