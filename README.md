@@ -21,6 +21,9 @@ https://aur.archlinux.org/packages/numix-cinnamon-transparent-git/
 
 ### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
 
+Update 05.01.2017
+    update for cinnamon 3.2 from zagortenay333
+
 Update 25.11.2016
 
 	Support for cinnamon 3.2 (fix popup menu, search icon)
