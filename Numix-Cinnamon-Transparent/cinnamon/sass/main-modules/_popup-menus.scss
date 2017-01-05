@@ -26,7 +26,7 @@
 
     &-icon,  StIcon {
         icon-size: 16px;
-        color: $icon-primary;
+        color: $text-primary;
     }
 
     &-arrow {
@@ -43,7 +43,7 @@
             color: $text-active;
 
             .popup-menu-icon, StIcon {
-                color: $icon-active;
+                color: $text-active;
             }
 
             .popup-menu-item-dot {
@@ -58,7 +58,7 @@
             color: $text-disabled;
 
             .popup-menu-icon, StIcon {
-                color: $icon-disabled;
+                color: $text-disabled;
             }
         }
     }
@@ -112,7 +112,7 @@
     -slider-active-border-color: rgba(0, 0, 0, 0);
     -slider-border-width: 2px;
     -slider-handle-radius: 4px;
-    color: $icon-primary;
+    color: $text-primary;
 
     border-image: url("widget-assets/slider.svg") 9 6 8 8;
     border: 0 solid transparent;
