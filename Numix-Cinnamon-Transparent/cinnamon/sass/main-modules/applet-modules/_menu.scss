@@ -37,13 +37,13 @@
 }
 
 .menu-category-button {
-    padding: 7px;
+    padding: .6em;
     color: $text-secondary;
 
     &-greyed {
         padding: 7px;
         color: $text-disabled;
-        font-style: normal;
+        font-weight: bold;
     }
 
     &-selected {

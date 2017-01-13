@@ -261,9 +261,10 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .popup-menu .popup-menu-content, .menu .popup-menu-content {
-  border-image: url("background-assets/popup-inside.svg") 9;
+  border-image: url("background-assets/popup-inside.svg") 10;
   padding: .7em 0;
   color: #eeeeee;
+  max-height: 70em;
 }
 
 .popup-menu-icon, .popup-menu StIcon, .menu-icon, .menu StIcon {
@@ -272,6 +273,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .popup-menu-arrow, .menu-arrow {
+  icon-size: 13px;
   width: 10px;
   height: 10px;
   padding: 0;
@@ -292,7 +294,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .popup-menu-item:active .popup-menu-item-dot, .menu-item:active .popup-menu-item-dot {
-  background-image: url("widget-assets/check-dot-hover.svg");
+  background-image: url("widget-assets/check-dot.svg");
   background-size: 10px;
   color: transparent;
 }
@@ -322,7 +324,7 @@ StScrollBar StButton#hhandle:focus {
 
 .popup-sub-menu .popup-menu-item:active {
   border-image: url("background-assets/hover.svg") 9;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 .popup-sub-menu .popup-slider-menu-item {
@@ -1295,12 +1297,13 @@ StScrollBar StButton#hhandle:focus {
   font-size: 9pt;
   font-weight: bold;
   text-align: center;
-  width: 2.3em;
+  width: 2.5em;
   height: 2.5em;
 }
 
 .calendar-day-heading {
   color: #eeeeee;
+  font-size: 8pt;
   padding: 1.2em 0 .6em 0;
   height: 1.5em;
 }
@@ -1331,9 +1334,9 @@ StScrollBar StButton#hhandle:focus {
 
 .calendar-week-number {
   color: rgba(238, 238, 238, 0.65);
-  font-size: 9pt;
+  font-size: 8pt;
   font-weight: normal;
-  width: 1.2em;
+  width: 1.3em;
   height: 1.6em;
   padding-top: .7em;
   padding-right: .6em;
@@ -1717,14 +1720,14 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .menu-category-button {
-  padding: 7px;
+  padding: .6em;
   color: rgba(238, 238, 238, 0.65);
 }
 
 .menu-category-button-greyed {
   padding: 7px;
   color: rgba(238, 238, 238, 0.3);
-  font-style: normal;
+  font-weight: bold;
 }
 
 .menu-category-button-selected {
@@ -1849,8 +1852,8 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .osd-window {
-  spacing: .4em;
-  padding: 1.0em;
+  spacing: 1em;
+  padding: .1em;
   color: #eeeeee;
   border-image: url("background-assets/popup.svg") 7;
   font-size: 15pt;
@@ -1861,13 +1864,13 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .osd-window .level {
-  height: 6px;
+  height: 8px;
   color: #f0544c;
 }
 
 .workspace-osd {
   border-image: url("background-assets/popup.svg") 7;
-  padding: 12px 17px;
+  padding: 14px 19px;
   color: #eeeeee;
   font-weight: bold;
   font-size: 18pt;
