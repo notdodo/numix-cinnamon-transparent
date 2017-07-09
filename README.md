@@ -1,4 +1,4 @@
-####A Transparent theme for cinnamon __3.2__
+## Transparent theme for cinnamon __3.2__
 ---
 _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/numix-cinnamon) with shorter window list's tab_
 
