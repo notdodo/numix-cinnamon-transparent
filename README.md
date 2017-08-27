@@ -1,4 +1,4 @@
-## Transparent theme for cinnamon __3.2__
+## Transparent theme for cinnamon __3.4__
 ---
 _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/numix-cinnamon) with shorter window list's tab_
 
@@ -18,8 +18,12 @@ https://aur.archlinux.org/packages/numix-cinnamon-transparent-git/
 
 <pre>cd ~ && git clone https://github.com/edoz90/numix-cinnamon-transparent.git</pre>
 <pre>cd numix-cinnamon-transparent && cp -r Numix-Cinnamon-Transparent ~/.themes/</pre>
+<pre>gsettings set org.cinnamon.theme name "Numix-Cinnamon-Transparent"</pre>
 
 ### Changelog (since forking date) from [zagortenay333](https://github.com/zagortenay333)
+
+Update 27.08.2017
+    general refactoring from zagortenay333 (thank you! <3)
 
 Update 13.01.2017
 
