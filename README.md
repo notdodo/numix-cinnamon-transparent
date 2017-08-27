@@ -25,6 +25,7 @@ https://aur.archlinux.org/packages/numix-cinnamon-transparent-git/
 Update 27.08.2017
     
     general refactoring from zagortenay333 (thank you! <3)
+    now all elements should be darker
 
 Update 13.01.2017
 
