@@ -9,6 +9,10 @@ _Transparent version of [Numix-Cinnamon Theme](https://github.com/zagortenay333/
 
 ### Installation
 
+**Cinnamon Spices**
+
+https://cinnamon-spices.linuxmint.com/themes/view/Numix-Cinnamon-Transparent
+
 **Arch Linux** (Thanks to BZaidan)
 
 https://aur.archlinux.org/packages/numix-cinnamon-transparent-git/
